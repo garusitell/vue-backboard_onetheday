@@ -55,7 +55,7 @@ class UserRepositoryTest {
         assertThat(user.getUserPw()).isEqualTo(encPassword);
         */
 
-        String userId = "test_user";
+        String userId = "test_user"
         String userPw = "test_password";
         UserDetails user = userService.loadUserByUsername(userId);
 
